@@ -1,0 +1,29 @@
+// librairies
+@import "libs/reset";
+
+// vars
+@import "vars/colors";
+
+// base
+
+// components
+@import "components/buttons";
+
+// layouts
+@import "layouts/cart-closed";
+@import "layouts/cart-open";
+
+// modules
+
+
+
+body {
+  height:100vh;
+  width:100vw;
+
+  display:grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(13, 1fr);
+
+  font-family: Arial, sans-serif;
+}
